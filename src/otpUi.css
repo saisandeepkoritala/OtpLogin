@@ -1,0 +1,32 @@
+.optUi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+
+.optUi .optForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+
+.optForm .otp-input{
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0px #ccc;
+    font-size: 1rem;
+    width:20px;
+}
+
+.optForm .otp-input:hover,.optForm .otp-input:focus{
+    border: 1px solid blue;
+}
+
+h3{
+    font-weight: lighter;
+}

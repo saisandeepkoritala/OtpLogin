@@ -1,0 +1,65 @@
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border:1px solid black;
+    width:70%;
+    margin: 0 auto;
+}
+
+h2{
+    font-weight: lighter;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0px #ccc;
+    font-size: 1rem;
+}
+
+input:hover,input:focus{
+    border: 1px solid black;
+}
+
+input:user-invalid{
+    border:1px solid red;
+}
+
+input:user-valid{
+    border:1px solid green;
+}
+
+button{
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0px #ccc;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: white;
+    border:1px solid green;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+
+@media screen and (max-width:768px){
+    .app{
+        width:90%;
+    }
+}
